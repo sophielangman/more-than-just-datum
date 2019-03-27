@@ -5,11 +5,38 @@
   <title>More than just datum</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700" rel="stylesheet">
 </head>
 <body>
+
+  <main>
+    <h1 class="hidden peta">Playground Finder</h1>
+
+    <div>
+      <header class="gutter-1-2 pad-t-1-4 pad-b-1-2">
+        <div class="grid content grid-middle">
+          <div class="unit xs-1 s-1 m-1-3 l-1-4 pad-t-1-2 pad-b-1-4">
+            <img class="playlogo" src="images/logo.svg" alt="">
+          </div>
+          <div class="unit xs-1 s-1 m-2-3 l-3-4 pad-t-1-4 gutter-1-2">
+            <h2 class="hidden">Search</h2>
+            <form class="relative" method="POST" action="#">
+              <input id="search" type="search" required>
+              <label for="search">
+                <img class="absolute icon i-16 pin-left-center" src="images/search.svg" alt="">
+              </label>
+            </form>
+          </div>
+        </div>
+      </header>
+
+
+
+    </div>
+  </main>
 
 </body>
 </html>
